@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+* {
+    box-sizing: border-box;
+}
+
+.person {
+  font-family: 'Roboto';
+}
+.person.caption {
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+.person.contact {
+  font-family: 'Inconsolata';
+  font-size: 11px;
+}
+.section {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.item {
+  font-family: 'Roboto'; 
+  margin-top:20px;
+  margin-bottom:10px;
+  font-size: 16px;
+  line-height: 10px; 
+}
+.item.caption {
+  font-family: 'Inconsolata';
+  margin-top:10px;
+  margin-bottom:5px;
+  font-size: 12px;
+  line-height: 10px;
+}
+.item.description {
+  font-family: 'Open Sans', serif;
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 5px;
+  margin-left:15px;
+}
+
+ul {
+  padding: 5px;
+}
+
+div {
+  border-radius: 5px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #ffcccc;
+  position: fixed;
+  z-index: 1;
+}
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  clear: both;
+  position: relative;
+}
