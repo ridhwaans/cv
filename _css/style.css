@@ -1,42 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:Light);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Cousine);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 11px;
+}
 
 * {
     box-sizing: border-box;
 }
 
 .person {
-  font-family: 'Roboto';
+  font-family: 'Roboto Mono';
+  font-size: 48px;
+  margin-bottom:5px;
 }
 .person.caption {
-  font-family: 'Open Sans';
+  font-family: 'Cousine';
   font-size: 16px;
+  margin-bottom: 0px;
 }
 .person.contact {
   font-family: 'Inconsolata';
-  font-size: 11px;
+  font-size: 12px;
 }
 .section {
+  font-family: 'Roboto Mono';
   font-size: 20px;
-  font-family: 'Roboto';
 }
 .item {
-  font-family: 'Roboto'; 
+  font-family: 'Roboto';
   margin-top:20px;
-  margin-bottom:10px;
-  font-size: 16px;
-  line-height: 10px; 
+  margin-bottom:0px;
+  font-size: 14px;
+  line-height: 14px; 
 }
+.item::after {
+ content:"@"
+ color:gray;
+}
+
 .item.caption {
   font-family: 'Inconsolata';
-  margin-top:10px;
+  margin-top:5px;
   margin-bottom:5px;
   font-size: 12px;
   line-height: 10px;
 }
-.item.description {
+.item.description.ul {
   font-family: 'Open Sans', serif;
+  font-weight: lighter;
   margin-top:5px;
   margin-bottom:5px;
   font-size: 10px;
@@ -44,6 +63,16 @@
   padding: 5px;
   margin-left:15px;
 }
+.item.description.p {
+  font-family: 'Open Sans', serif;
+  font-weight: lighter;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 0px;
+}
+
 
 ul {
   padding: 5px;
