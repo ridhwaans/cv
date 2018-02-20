@@ -62,7 +62,7 @@ a {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    /*height: 300px;  Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -71,6 +71,19 @@ a {
     display: table;
     clear: both;
 }
+
+.first-column {
+    width: 66%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.second-column {
+    width: 33%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
 #header {
   height: 40px;
   width: 100%;
