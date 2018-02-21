@@ -22,6 +22,7 @@
   margin-bottom:5px;
 }
 .person.caption {
+  color:black;
   font-family: 'Cousine';
   font-size: 16px;
   margin-bottom: 0px;
@@ -36,18 +37,16 @@
 }
 .item {
   font-family: 'Roboto';
+  font-weight: 500;
   margin-top:20px;
   margin-bottom:0px;
   font-size: 14px;
   line-height: 14px; 
 }
-.item::after {
- content:"@"
- color:gray;
-}
 
 .item.caption {
   font-family: 'Inconsolata';
+  font-weight: normal;
   margin-top:5px;
   margin-bottom:5px;
   font-size: 12px;
@@ -73,6 +72,15 @@
   padding: 0px;
 }
 
+.person, .section {
+  color:black;
+  -webkit-print-color-adjust: exact; 
+}
+
+span {
+  color:black;
+  -webkit-print-color-adjust: exact; 
+}
 
 ul {
   padding: 5px;
