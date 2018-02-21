@@ -73,12 +73,12 @@
 }
 
 .person, .section {
-  color: #536DFE;
+  color: black; /* #536DFE */
   -webkit-print-color-adjust: exact; 
 }
 
 span {
-  color:gray;
+  color:black; /* gray */
   -webkit-print-color-adjust: exact; 
 }
 
