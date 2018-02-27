@@ -1,0 +1,34 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: TypeScript
+  - item: Python
+  - item: HTML
+  - item: CSS/Sass
+  - item: Java
+  - item: MySQL & pgSQL
+
+frameworks:
+  - item: AWS
+  - item: Node
+  - item: Jekyll
+  - item: React
+  - item: Backbone
+  - item: D3
+  - item: Cordova
+
+tools:
+  - item: Jenkins
+  - item: New Relic
+  - item: Nginx
+  - item: Puppet
+  - item: JMeter
+  - item: Capistrano
+  - item: Saucelabs & selenium
+  - item: Datadog
+  - item: OpsGenie
+  - item: Postman
+
+container/virtualization:
+  - item: Docker
+  - item: microservices
+  - item: Vagrant

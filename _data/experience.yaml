@@ -1,0 +1,42 @@
+- company: University of Waterloo
+  time: Oct 2017 - Present
+  position: Research Assistant (Part-time)
+
+- company: Canadian Tire
+  time: Oct 2017 - Nov 2017
+  position: Senior Consultant, DevOps
+    - Worked on the delivery pipeline for ATLAS Search platform team
+    - Gave digital transformation onboarding and guidance to CTC engineers
+
+- company: Flipp
+  time: Sept 2016 - Aug 2017
+  position: Software Engineer in Test, Marketing Infrastructure
+    -  Created linters, CI/CD pipelines for projects and serverless code utilizing Jenkins
+    -  Created early warning system utilizing healthchecks, Cloudwatch alarms and OpsGenie
+    -  Strategized and drove product quality by developing a front-end automation to run regression against multiple Saucelabs web browsers and reporting back    
+    -  Automated performance testing to identify bottlenecks and ensured baseline response times
+    -  Achieved visibility into system health by setting up monitors utilizing DataDog, NewRelic
+
+- company: Enterprise CarShare / Metavera
+  time: Mar 2015 - Sept 2016
+  position: Associate Software Engineer
+    -  Helped componentize and build a plugin-based architecture for a carsharing microservice utilizing Java/Spring
+    -  Added hooks to trigger Gradle automation to setup and run a Java/Spock test suite, and report build failures via email notifications
+    -  Met a business need by developing a client-facing form to use a secure API that syncs media from Amazon S3
+    -  Identified thresholds for message loss and response times through stress testing a Kafka streaming application
+    -  Gained release management experience by setting up production dry runs, Vagrant environments
+  
+- company: Brookfield
+  time: May 2013 – Aug 2013
+  position: Software Developer Co-op (Term II)
+    -  Pioneered a graphics application utilizing .NET that drills down sitemaps to show building property details
+    -  Worked on a C# utility to import customer data into an inventory management system from Microsoft Dynamics
+    -  Worked closely with IT to optimize application performance
+
+- company: Brookfield
+  time: May 2012 – Aug 2012 
+  position: Software Developer Co-op (Term I)
+    -  Solved a business problem by developing a new inventory management application in C#/ MySQL to allow finance and accounting users to perform queries, filtered searches and run Crystal business reports
+    -  Wrote scripts for database schemas, views, and stored procedures.
+    -  Technologies used: .NET 4, MySQL, T-SQL, ADO.NET, LINQ
+

@@ -1,0 +1,8 @@
+- name: TAKO reservation service
+  description: Designed an Arduino client that consumes vehicle trip data and ODB2 data over GPRS
+
+- name: Merchant floating rates
+  description: Worked on integrating Flipp marketplace with auction house service
+
+- name: Growth Media Ads dashboard
+  description: Utilized Facebook ad campaigns to market creatives on banners and interstitials 
