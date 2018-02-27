@@ -2,33 +2,39 @@ languages:
   - item: JavaScript (ES6)
   - item: TypeScript
   - item: Python
+  - item: Ruby on Rails
   - item: HTML
   - item: CSS/Sass
   - item: Java
+  - item: C#
+  - item: C++
   - item: MySQL & pgSQL
 
 frameworks:
   - item: AWS
   - item: Node
-  - item: Jekyll
   - item: React
-  - item: Backbone
-  - item: D3
-  - item: Cordova
+  - item: Spring
+  - item: Ember
+  - item: Bootstrap
+  - item: Jekyll
+  - item: Spock
 
 tools:
   - item: Jenkins
   - item: New Relic
   - item: Nginx
   - item: Puppet
-  - item: JMeter
-  - item: Capistrano
-  - item: Saucelabs & selenium
+  - item: Databricks
   - item: Datadog
+  - item: Capistrano
+  - item: JMeter
   - item: OpsGenie
   - item: Postman
+  - item: Saucelabs & selenium
 
-container/virtualization:
+containerization:
   - item: Docker
+  - item: ECS
   - item: microservices
-  - item: Vagrant
+  - item: Spinnaker

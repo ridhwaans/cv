@@ -1,42 +1,32 @@
 - company: University of Waterloo
-  time: Oct 2017 - Present
+  time: Sept 2017 - Present // Remote
   position: Research Assistant (Part-time)
 
 - company: Canadian Tire
-  time: Oct 2017 - Nov 2017
-  position: Senior Consultant, DevOps
-    - Worked on the delivery pipeline for ATLAS Search platform team
-    - Gave digital transformation onboarding and guidance to CTC engineers
+  time: Oct 2017 - Nov 2017 // Toronto
+  position: DevOps Senior Engineer, Search Platform
+    - Devised a new strategy and delivery pipeline for the ATLAS Search engineering team
+    - Had a consultant role in the digital transformation roadmap
 
 - company: Flipp
-  time: Sept 2016 - Aug 2017
+  time: Sept 2016 - Aug 2017 // Toronto
   position: Software Engineer in Test, Marketing Infrastructure
-    -  Created linters, CI/CD pipelines for projects and serverless code utilizing Jenkins
-    -  Created early warning system utilizing healthchecks, Cloudwatch alarms and OpsGenie
-    -  Strategized and drove product quality by developing a front-end automation to run regression against multiple Saucelabs web browsers and reporting back    
+    -  Created linting, CI/CD pipelines for Growth Product systems which had a reach of over ~1.2 million monthly active users
+    -  Developed early warning system utilizing Python healthchecks, Cloudwatch alarms, Datadog
+    -  Strategized and drove production quality by developing a front-end automation to run regression against multiple Saucelabs browsers
     -  Automated performance testing to identify bottlenecks and ensured baseline response times
-    -  Achieved visibility into system health by setting up monitors utilizing DataDog, NewRelic
 
 - company: Enterprise CarShare / Metavera
-  time: Mar 2015 - Sept 2016
-  position: Associate Software Engineer
-    -  Helped componentize and build a plugin-based architecture for a carsharing microservice utilizing Java/Spring
-    -  Added hooks to trigger Gradle automation to setup and run a Java/Spock test suite, and report build failures via email notifications
-    -  Met a business need by developing a client-facing form to use a secure API that syncs media from Amazon S3
-    -  Identified thresholds for message loss and response times through stress testing a Kafka streaming application
-    -  Gained release management experience by setting up production dry runs, Vagrant environments
+  time: Mar 2015 - Sept 2016 // Toronto
+  position: Software Engineer
+    -  Helped componentize and build a plugin-based architecture for a carsharing microservice reaching over 30 clients worldwide
+    -  Wrote over 100 unit and integration test cases in a Java Spring/Spock suite. Used hooks and Gradle for reporting and alerts
+    -  Identified thresholds for message loss through stress testing a Kafka streaming application
+    -  Gained release management experience by setting up production dry runs, Vagrant environment
   
 - company: Brookfield
-  time: May 2013 – Aug 2013
-  position: Software Developer Co-op (Term II)
-    -  Pioneered a graphics application utilizing .NET that drills down sitemaps to show building property details
-    -  Worked on a C# utility to import customer data into an inventory management system from Microsoft Dynamics
-    -  Worked closely with IT to optimize application performance
-
-- company: Brookfield
-  time: May 2012 – Aug 2012 
-  position: Software Developer Co-op (Term I)
-    -  Solved a business problem by developing a new inventory management application in C#/ MySQL to allow finance and accounting users to perform queries, filtered searches and run Crystal business reports
-    -  Wrote scripts for database schemas, views, and stored procedures.
-    -  Technologies used: .NET 4, MySQL, T-SQL, ADO.NET, LINQ
-
+  time: May 2013 – Aug 2013 // (Term II)
+        May 2012 – Aug 2012 // (Term I)
+  position: Software Developer
+    -  Pioneered a graphics application utilizing .NET that drills down sitemaps to show building property detail
+    -  Met a business need by developing a new inventory management application to allow finance and accounting users to perform queries, filtered searches and run business reports
