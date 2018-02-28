@@ -15,6 +15,7 @@ frameworks:
   - item: Node
   - item: React
   - item: Spring
+  - item: Kafka
   - item: Ember
   - item: Bootstrap
   - item: Jekyll
