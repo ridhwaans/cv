@@ -50,15 +50,15 @@
   margin-top:5px;
   margin-bottom:5px;
   font-size: 12px;
-  line-height: 10px;
+  line-height: 12px;
 }
 .item.description.ul {
   font-family: 'Open Sans', serif;
   font-weight: lighter;
   margin-top:5px;
   margin-bottom:5px;
-  font-size: 10px;
-  line-height: 10px;
+  font-size: 12px;
+  line-height: 12px;
   padding: 5px;
   margin-left:15px;
 }
@@ -67,8 +67,8 @@
   font-weight: lighter;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 10px;
-  line-height: 10px;
+  font-size: 12px;
+  line-height: 12px;
   padding: 0px;
 }
 
