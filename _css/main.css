@@ -9,7 +9,7 @@
 /* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 * {
@@ -19,10 +19,10 @@
 .person {
   font-family: 'Roboto Mono';
   font-size: 48px;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 .person.caption {
-  color:black;
+  color: black;
   font-family: 'Cousine';
   font-size: 16px;
   margin-bottom: 0px;
@@ -34,51 +34,47 @@
 .section {
   font-family: 'Roboto Mono';
   font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 .item {
   font-family: 'Roboto';
   font-weight: 500;
-  margin-top:20px;
-  margin-bottom:0px;
   font-size: 14px;
-  line-height: 14px; 
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 .item.caption {
   font-family: 'Inconsolata';
   font-weight: normal;
-  margin-top:5px;
-  margin-bottom:5px;
   font-size: 12px;
-  line-height: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .item.description.ul {
   font-family: 'Open Sans', serif;
   font-weight: lighter;
-  margin-top:5px;
-  margin-bottom:5px;
-  font-size: 12px;
-  line-height: 12px;
-  padding: 5px;
-  margin-left:15px;
+  font-size: 10px;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .item.description.p {
   font-family: 'Open Sans', serif;
   font-weight: lighter;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 12px;
-  line-height: 12px;
-  padding: 0px;
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .person, .section {
-  color: black; /* #536DFE */
+  color: black; /* black, #2e69ff, #536dfe */
   -webkit-print-color-adjust: exact; 
 }
 
 span {
-  color:black; /* gray */
+  color: black; /* black, gray */
   -webkit-print-color-adjust: exact; 
 }
 
@@ -113,12 +109,16 @@ a {
     width: 66%;
     padding: 0 10px 0 0;
     float: left;
+    margin-top: 25px;
+    margin-bottom: 0px;
 }
 
 .second-column {
     width: 33%;
     padding: 0 10px 0 0;
     float: right;
+    margin-top: 25px;
+    margin-bottom: 0px;
 }
 
 #header {
